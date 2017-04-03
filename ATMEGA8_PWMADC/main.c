@@ -22,13 +22,13 @@ int main()
 	int data = 0;
 	double angle = 0;
 
-	pwmInit(OC1A_PWM_SET);
+	pwmInit(_______);
 	
 	while(1)
 	{
-		data = adcRead(0);
-		angle = 1.6*data/1024 + 0.7; //(2.3-0.7)*(data/1024) + 0.7
-		pwmSet(OC1A_PWM_SET, angle);
+		data = adcRead(_);
+		angle = ___ * (data / 1024) + ___ ; //(2.3-0.7)*(data/1024) + 0.7
+		pwmSet(_______, angle);
 	}
 }
 
